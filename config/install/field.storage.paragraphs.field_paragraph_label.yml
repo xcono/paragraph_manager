@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+  enforced:
+    module:
+      - xparagraphs
+id: paragraphs.field_paragraph_label
+field_name: field_paragraph_label
+entity_type: paragraph
+type: string
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

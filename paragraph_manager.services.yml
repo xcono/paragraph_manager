@@ -1,0 +1,8 @@
+services:
+
+    paragraph_manager.field.extractor:
+        class: Drupal\paragraph_manager\Service\FieldExtractor
+
+    paragraph_manager.repo.paragraph:
+        class: Drupal\paragraph_manager\Repository\ParagraphRepository
+        arguments: []

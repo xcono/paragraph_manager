@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Contains paragraph_manager.module.
+ */
+
+/**
+ * Implements hook_help().
+ * @param $route_name
+ * @param \Drupal\Core\Routing\RouteMatchInterface $route_match
+ * @return string
+ */
+function paragraph_manager_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        // Main module help for the xparagraph module.
+        case 'help.page.xparagraphs':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('Xcono Paragraphs Manage Module') . '</p>';
+            return $output;
+
+        default:
+    }
+}
