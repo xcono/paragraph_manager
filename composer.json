@@ -13,6 +13,8 @@
     "source": "https://github.com/xcono/paragraph_manager"
   },
   "require": {
+    "drupal/paragraphs": "~1.0",
     "drupal/core": "~8.0"
+
   }
 }
