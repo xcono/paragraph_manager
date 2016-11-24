@@ -1,15 +1,16 @@
 {
   "version": "1.0.0",
-  "name": "drupal/paragraph_manager",
+  "name": "xcono/paragraph_manager",
   "type": "drupal-module",
   "description": "Xcono Paragraphs Manage Module",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/paragraph_manager",
+  "homepage": "https://github.com/xcono/paragraph_manager",
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "support": {
-    "issues": "http://drupal.org/project/issues/paragraph_manager",
-    "source": "http://cgit.drupalcode.org/paragraph_manager"
+    "issues": "https://github.com/xcono/paragraph_manager/issues",
+    "source": "https://github.com/xcono/paragraph_manager"
   },
   "require": {
     "drupal/core": "~8.0"
